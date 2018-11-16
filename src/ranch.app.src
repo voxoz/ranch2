@@ -1,5 +1,5 @@
 {application, ranch, [
-	{description, "RANCH Socket acceptor pool for TCP protocols."},
+	{description, "RANCH Socket TCP protocols."},
 	{vsn, "1.6.2"},
 	{modules, [ranch,ranch_acceptor,ranch_acceptors_sup,ranch_app,
 	           ranch_conns_sup,ranch_listener_sup,ranch_protocol,
